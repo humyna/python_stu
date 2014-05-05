@@ -1,0 +1,19 @@
+#encoding:utf-8
+#文件不加后缀居然也能执行
+
+age = 3
+if age >= 18:
+    print 'your age is',age
+    print 'adult'
+elif age >= 6:
+    print 'your age is',age
+    print 'teenage'
+else:
+    print 'kid'
+
+
+#if判断条件还可以简写
+#只要x是非零数值、非空字符串、非空list等，就判断为True，否则为False
+x = raw_input()
+if x:
+    print 'True'
